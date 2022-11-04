@@ -1,0 +1,19 @@
+.main {
+    display: grid;
+    font-size: 20px;
+    grid-template-areas:
+    'h h'
+    'n c';
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 60px 1fr;
+    grid-gap: 10px;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+}
+
+.content{
+    grid-area: c;
+
+
+}
