@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    grid-area: h;
+    background: #9517c4;
+    font-size: 30px;
+    align-items: center;
+
+}
+.logoHeader {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.imgBasket{
+    width: 30px;
+    height: 30px;
+}
+.vueCount{
+    position: relative;
+}
+.vueCountBasket {
+    position: absolute;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    min-width: 16px;
+    height: 16px;
+    top: -6px;
+    right: -8px;
+    background: #f55123;
+    padding: 2px 3px 1px;
+    border-radius: 16px;
+
+}
