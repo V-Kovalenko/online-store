@@ -14,9 +14,6 @@ export const Nav = () => {
                 <div className={classes.item}>
                     <NavLink to='/basket' className={setActive}>Basket</NavLink>
                 </div>
-                <div className={classes.item}>
-                    <NavLink to='/logs' className={setActive}>Logs</NavLink>
-                </div>
             </div>
 
 
