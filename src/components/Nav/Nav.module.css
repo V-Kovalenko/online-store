@@ -1,0 +1,18 @@
+.navigation{
+    grid-area: n;
+    background: #4f1281;
+    padding:20px;
+    line-height: 1.5;
+
+}
+.div_main a{
+    text-decoration: none;
+}
+.item a{
+    color: white;
+}
+
+.item a.activeLink  {
+    color: gold;
+    /*text-decoration: none;*/
+}
